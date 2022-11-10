@@ -16,7 +16,7 @@ function App() {
 
   return (
     <div className="App">
-      <h1>My Bakery</h1>
+      <h1>Austin's Bakery</h1>
       <div className="appContainer">
         <div className="bakeryItems">
           {bakeryData.map((item, index) => ( // Map bakeryData to BakeryItem components
