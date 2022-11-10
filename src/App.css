@@ -1,9 +1,51 @@
 /* Add styling for your page here */
 
 .App {
-
+  padding-left: 10rem;
 }
 
-.BakeryItem {
-  
+.bakeryItems {
+  width: 60%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.bakeryCart {
+  width: 40%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+
+.bakeryCart h2 {
+  text-align: center;
+}
+
+.bakeryItem {
+  width: 400px;
+  height: 450px;
+  border: 2px solid black;
+  margin-bottom: 1rem;
+  font-size: medium;
+}
+
+.bakeryItemImg {
+  width: 100%;
+  height: 250px;
+  object-fit: cover;
+}
+
+.bakeryItemText {
+  margin-left: 1rem;
+}
+
+.bakeryItemButton {
+  margin-left: 1rem;
+}
+
+.appContainer {
+  display: flex;
+  flex-direction: row;
 }
